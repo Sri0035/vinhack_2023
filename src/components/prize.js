@@ -8,7 +8,7 @@ class Prize extends Component {
     render(){
         return(
             <div className='Prize-Main'>
-                <body>
+                
                 <div className="prize-title">
                     <h2>PRIZES</h2>
                 </div>
@@ -38,7 +38,7 @@ class Prize extends Component {
                 <p className="rightp">To be decided</p>
                 </div>
 
-    </body>
+   
   </div>
         );
     }

@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 class Footer extends Component{
     render(){
         return(
+            <div className="BodyFooter">
             <footer className="footer">
                 <div className="container">
                     <div className="row">
@@ -37,6 +38,7 @@ class Footer extends Component{
                     </div>
                 </div>
             </footer>
+            </div>
         )
     }
 }
