@@ -6,7 +6,8 @@
 }
 
 .Nav-Main{
-  /* height: 500px; */
+  /* height: 500px;   */
+
   background-color: #101010;
 }
 
@@ -68,6 +69,7 @@ header {
   line-height: 17px;
   font-weight: 700;
   margin-right: 80px;
+  
 }
 
 .lgnbtn,
@@ -367,7 +369,7 @@ ul{
   width: 180px;
   height: 55px;
   left: 9%;
-  top: 200px;
+  top: 900px;
 
   font-family: "Gilroy-Bold";
   font-size: 33px;
@@ -394,7 +396,7 @@ ul{
   background-image: linear-gradient(90deg, #ea7ef1, #0e76a0);
 
   position: absolute;
-  top: 260px;
+  top: 960px;
   left: 9.3%;
 }
 
@@ -409,7 +411,7 @@ ul{
   font-weight: bold;
 
   position: absolute;
-  top: 245px;
+  top: 945px;
   left: 19.5%;
 }
 
@@ -424,7 +426,7 @@ ul{
   width: 20%;
 
   position: absolute;
-  top: 450px;
+  top: 1150px;
   left: 8.74%;
 }
 
@@ -470,7 +472,7 @@ ul{
   width: 20%;
 
   position: absolute;
-  top: 370px;
+  top: 1070px;
   left: 38.6%;
 }
 
@@ -516,7 +518,7 @@ ul{
   width: 20%;
 
   position: absolute;
-  top: 450px;
+  top: 1150px;
   left: 68.44%;
 }
 
@@ -549,4 +551,55 @@ ul{
   font-style: normal;
   text-align: center;
   font-size: 15px;
+}
+
+/* Landing Component */
+
+.Landing-Body{
+  background-color: #101010;
+  align-items: center;
+  /* height: 500px; */
+}
+
+.VinHack{
+   font-family: "Gilroy", "Spline Sans", sans-serif;  ;
+  font-size: 75px;
+  /* align-items: center; */
+  text-align: center;
+
+  background: linear-gradient(90deg, #0d99d0 0%, #0b4792 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.VinHack h5 {
+  color: white;
+}
+
+.register{
+  width: 225.7px;
+  height: 74px;
+  top: 615px;
+  left: 562px;
+  border-radius: 14.8px;
+  font-size: 14.33px;
+  line-height: 17px;
+  font-weight: 500;
+  margin-right: 80px;
+  background-color: #101010;
+  border: 2px solid black  ;
+  
+  
+}
+
+.blue{
+  border-color: hsl(213, 86%, 40%);
+  color:#0d99d0;
+}
+
+.blue:hover{
+  background-image: linear-gradient(-90deg, #0d99d0 0%, #0b4792 100%);
+  color: white;
+  
 }
